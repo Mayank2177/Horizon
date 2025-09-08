@@ -25,7 +25,7 @@ const LandingPage: React.FC = () => {
           </div>
         </div>
         <div className="img">
-          <img src="ai page.jpg" alt="AI Career Mentor" width="720" height="480" />
+          <img src="IMG.jpg" alt="AI Career Mentor" width="720" height="480" />
         </div>
       </div>
     </div>
