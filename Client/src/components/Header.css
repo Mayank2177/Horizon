@@ -1,0 +1,75 @@
+/* src/components/Header.css */
+.header {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(45, 59, 52, 1) 0%,
+    rgba(12, 59, 55, 1) 3%,
+    rgba(52, 70, 140, 1) 36%,
+    rgba(38, 140, 70, 1) 100%
+  );
+  color: white;
+}
+
+#navigate {
+  position: relative;
+  width: 450px;
+  height: 50px;
+  background: #222;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  position: relative;
+  font-size: 1.3em;
+  font-weight: 600;
+  color: white;
+  text-decoration: none;
+  padding: 0 23px;
+  z-index: 1;
+  cursor: pointer;
+}
+
+/* Sliding highlight effect */
+.slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(45deg, #194b4f, #33fffc);
+  border-radius: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+  }
+
+  #navigate {
+    width: 100%;
+    max-width: 400px;
+    margin-top: 15px;
+  }
+
+  .nav-link {
+    font-size: 1.1em;
+    padding: 0 15px;
+  }
+
+  .slider {
+    width: 80px;
+  }
+}
