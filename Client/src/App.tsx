@@ -7,6 +7,7 @@ import ProfilePage from "./components/profilepage";
 import Login from "./components/Login";
 import Signup from "./components/Signup";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Trends from "./components/Trends";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           {/* Public route */}
           <Route path="/" element={<LandingPage />} />
+          <Route path="/trends" element={<Trends />} />
 
           {/* Auth-only routes */}
           <Route
