@@ -7,14 +7,18 @@ How to run on your device
 ```shell
 git clone https://github.com/Mayank2177/Horizon.git
 ```
+
 2. Navigate to Frontend folder.
 ```shell
 cd Client
+```
 
 3. Download the required Dependencies.
 ```shell
 npm install
+```
 
 4. Start the development server (Run).
 ```shell
 npm run development
+```
