@@ -6,7 +6,7 @@ How to run on your device
 1. Clone the Repository in your local device.
 ```shell
 git clone https://github.com/Mayank2177/Horizon.git
-
+```
 2. Navigate to Frontend folder.
 ```shell
 cd Client
